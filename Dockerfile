@@ -48,7 +48,7 @@ RUN apt-get update && \
     python3 \
     python3-pip 
 
-RUN curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash
 RUN apt install nodejs npm
 RUN pip3 install --no-cache --upgrade pip 
 

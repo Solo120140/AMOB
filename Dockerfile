@@ -46,7 +46,8 @@ RUN apt-get update && \
     xdg-utils \
     libgbm-dev \
     python3 \
-    python3-pip 
+    python3-pip \
+    sudo
 
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 RUN apt install nodejs npm

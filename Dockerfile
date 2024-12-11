@@ -49,7 +49,7 @@ RUN apt-get update && \
     python3-pip 
 
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash
-RUN apt install nodejs npm
+RUN apt install nodejs
 RUN pip3 install --no-cache --upgrade pip 
 
 RUN pip3 install --no-cache notebook jupyterlab

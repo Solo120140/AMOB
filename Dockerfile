@@ -45,11 +45,11 @@ RUN apt-get update && \
     lsb-release \
     xdg-utils \
     libgbm-dev \
-    npm \
-    nodejs \
     python3 \
     python3-pip 
-    
+
+RUN curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+RUN apt install nodejs npm
 RUN pip3 install --no-cache --upgrade pip 
 
 RUN pip3 install --no-cache notebook jupyterlab

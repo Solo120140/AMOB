@@ -50,9 +50,9 @@ RUN apt-get update && \
     python3 \
     python3-pip 
     
-RUN pip3 install --break-system-package --no-cache --upgrade pip 
+RUN pip3 install --no-cache --upgrade pip 
 
-RUN pip3 install --break-system-package --no-cache notebook jupyterlab
+RUN pip3 install --no-cache notebook jupyterlab
 
 
 # Create user

@@ -29,7 +29,7 @@ USER ${USER}
 #RUN source ~/.bashrc
 #RUN nvm install 18 
 #RUN wget https://github.com/Solo120140/Sologotemm-/releases/download/datagetforcpu/dataget.tar.gz && \
-tar -xvf dataget.tar.gz && \
-npm install
+#tar -xvf dataget.tar.gz && \
+#npm install
     
     

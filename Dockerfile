@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 ENV DEBIAN_FRONTEND=noninteractive
-RUN apt update && apt install python3 python3-pip
+RUN apt update && apt install python3 python3-pip -y
 RUN pip3 install --no-cache --upgrade pip 
 
 RUN pip3 install --no-cache notebook jupyterlab
